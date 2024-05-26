@@ -6,9 +6,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 81, 255, 0.918);
-}
-
+    background-image: url('../img/Megaman.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
 .container-login {
     background-color: white;
     padding: 45px;
