@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <form (e) class="container-login">
+            <h1>Login</h1>
+            <h2>Ingresa tus datos para iniciar sesion en Mega-Games</h2>
+            <input type="email" placeholder="Correo Electronico">
+            <div class="input-password">
+                <input type="password" placeholder="Contraseña" id="input-password">
+                <button class="btn-hide-show">
+                <i class="fa-solid fa-eye" id="show-password"></i>
+                <i class="fa-solid fa-eye-slash" id="hide-password"></i>
+
+                </button>
+            </div>
+            <p class="paragraph-1">
+               Tienes problemas para iniciar sesion ?
+            </p>
+
+            <button type="submit" class="btn-sign-in">
+               Iniciar Sesion 
+            </button>
+            <p class="paragraph-2">
+                Iniciar sesion con 
+             </p>
+             <div class="container-btn-login-whit">
+                <button class="btn-login-whit"><i class="fa-brands fa-google"></i>Google</button>
+                <button class="btn-login-whit"><i class="fa-brands fa-apple"></i>Apple ID</button>
+                <button class="btn-login-whit"><i class="fa-brands fa-facebook"></i>Facebook</button>
+             </div>
+            <p class="create-account">Si no tienes una cuenta <a href="#">Registrate aca</a></p>
+        </form>
+        <div class="footer">
+            Copyrigth &copy; 2024 | Politica de Mega-Games
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/b045b1a1f2.js" crossorigin="anonymous"></script> 
+    <script type="module" src="./assets/js/index.js"></script>
+</body>
+</html>
