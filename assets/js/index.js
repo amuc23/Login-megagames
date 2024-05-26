@@ -47,3 +47,4 @@ const clearErrorMessage = () => {
 
 emailInput.addEventListener('input', clearErrorMessage);
 passWordInput.addEventListener('input', clearErrorMessage);
+
